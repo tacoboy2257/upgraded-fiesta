@@ -1,0 +1,44 @@
+Microsoft Windows [Version 10.0.18362.657]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Will Whitman>cd
+C:\Users\Will Whitman
+
+C:\Users\Will Whitman>cd upgraded-fiesta
+The system cannot find the path specified.
+
+C:\Users\Will Whitman>cd documents
+
+C:\Users\Will Whitman\Documents>cd upgraded-fiesta
+
+C:\Users\Will Whitman\Documents\upgraded-fiesta>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Will Whitman\Documents\upgraded-fiesta>git add .
+
+C:\Users\Will Whitman\Documents\upgraded-fiesta>git commit -m
+error: switch `m' requires a value
+
+C:\Users\Will Whitman\Documents\upgraded-fiesta>git commit -m"docs folder"
+[master 10440a2] docs folder
+ 5 files changed, 97 insertions(+)
+ create mode 100644 HW 3 adding style to the website/Tik Tak Toe Web Dev.txt
+ create mode 100644 HW4 Tik Tak Toe/Tik Tak Toe Web Dev.html
+ create mode 100644 HW4 Tik Tak Toe/docs.txt
+ create mode 100644 HW4 Tik Tak Toe/style.css
+ create mode 100644 docs/index.html
+
+C:\Users\Will Whitman\Documents\upgraded-fiesta>git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 1.43 KiB | 488.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/tacoboy2257/upgraded-fiesta
+   aa387d0..10440a2  master -> master
+
+C:\Users\Will Whitman\Documents\upgraded-fiesta>p
