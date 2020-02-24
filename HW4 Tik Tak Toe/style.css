@@ -1,0 +1,47 @@
+#tikboard{
+    grid-row: 2;
+    grid-column: 2;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    
+    background-color: blue; 
+      
+    }
+    
+    #biggrid{
+        height: 100vh;
+        margin: 0;
+      display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+      background-color: aqua;
+      border: 10px black solid;
+    }
+    
+    #mainheader{
+      grid-row: 1;
+      grid-column: 2;
+    font-size: 20px;
+      text-align: center;}
+    
+    td{
+    font-size: 20px;
+    background-color: red;
+    border: 3px yellow solid;
+    text-align: center;
+    }
+
+    #cusack{
+        grid-row: 3;
+        grid-column:2;
+    }
+
+    #firstX{grid-column-start: 1;}
+    
+    
+    tbody{display: contents;}
+    
+    tr{display: contents;}
+    
+    
+    
+    
