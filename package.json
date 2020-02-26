@@ -1,0 +1,26 @@
+{
+  "name": "enter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "enter",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacoboy2257/upgraded-fiesta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tacoboy2257/upgraded-fiesta/issues"
+  },
+  "homepage": "https://github.com/tacoboy2257/upgraded-fiesta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gitignore": "^0.6.0"
+  }
+}
