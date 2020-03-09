@@ -21,12 +21,25 @@
 //     console.log("I got clicked!!!!")
 
     var allboxes = document.getElementsByClassName("box");
+ 
+    var player = "X";
+
+    // //even and odd function
+    // function isOdd(s) 
+    // {
+    //      return s % 2;
+    // } 
 ``
     for (var s of allboxes) {
         s.onclick = function(){
-            //do something cool here
-            console.log("clicked!");
-            s.textContent = "X";
+            this.textContent = player;
+            if (player === "X"){
+                player = "O";
+                }
+            else {
+                player = "X";
+            }
+               
         }
     }
 // }
