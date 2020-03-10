@@ -29,7 +29,11 @@
     // {
     //      return s % 2;
     // } 
-``
+``function checkwinner(){
+    console.log("checkforwinner")
+    }
+ 
+
     for (var s of allboxes) {
         s.onclick = function(){
             this.textContent = player;
@@ -39,7 +43,9 @@
             else {
                 player = "X";
             }
-               
+          checkwinner();     
         }
+        
     }
+
 // }
